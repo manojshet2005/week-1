@@ -1,0 +1,7 @@
+🧠 Trained Model File: waste_classifier_model.h5
+
+The trained CNN model file is stored on Google Drive since it exceeds GitHub’s 25 MB upload limit.
+You can download it using the link below:
+
+🔗 Google Drive Link:
+https://drive.google.com/your-file-link-here
