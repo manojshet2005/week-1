@@ -1,0 +1,19 @@
+DEMO SCRIPT - Garbage Classification Project
+
+1. Introduction:
+   "Hello, I am Manoj. This is my Garbage Classification project developed using CNN."
+
+2. Show the project folder and README.
+
+3. Running the app:
+   - Run this command in terminal: streamlit run app.py
+   - The Streamlit interface will open.
+
+4. Uploading an image:
+   - Select any garbage image from the dataset.
+   - The model will predict the waste category.
+
+5. Show accuracy/loss graphs from the notebook.
+
+6. Conclusion:
+   "This completes the demo. Thank you."
