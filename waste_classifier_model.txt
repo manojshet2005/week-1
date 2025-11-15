@@ -4,4 +4,4 @@ The trained CNN model file is stored on Google Drive since it exceeds GitHub’s
 You can download it using the link below:
 
 🔗 Google Drive Link:
-https://drive.google.com/your-file-link-here
+https://drive.google.com/file/d/14brxNCWIrLWtZyKa_HxbVQ-dTQsIzwrZ/view?usp=sharing
