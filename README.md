@@ -1,54 +1,109 @@
-## 🧩 Week 1 – Design Phase Summary
+🧩 Week 1 – Design Phase Summary
+🧠 Problem Statement
 
-### 🧠 Problem Statement
-The world faces increasing environmental challenges due to improper waste disposal and inefficient segregation. Urbanization and changing lifestyles have made manual waste sorting unsafe, inefficient, and unsustainable.  
-To address this issue, the project aims to design an **AI-based Garbage Classification System** that can automatically classify waste using deep learning techniques.
+Improper waste segregation has become a major environmental challenge. Manual sorting is slow, risky, and inefficient.
+To solve this, the project aims to design an AI-based Smart Garbage Classification System capable of automatically identifying different waste types using deep learning.
 
-### 💡 Solution Approach
-An intelligent and automated system is proposed using **Convolutional Neural Networks (CNN)** for accurate image-based waste classification.  
-The CNN model will be trained to recognize different waste categories (plastic, paper, metal, etc.) and support sustainable recycling through automation.
+💡 Solution Approach
 
-### 🗂️ Dataset Information
-- **Dataset Name:** Garbage Classification Dataset  
-- **Source:** Kaggle ([Garbage Classification V2](https://www.kaggle.com/datasets/sumn2u/garbage-classification-v2))  
-- **Description:** Contains images of garbage items categorized into 10 classes such as plastic, metal, cardboard, glass, and paper.  
-- **Purpose:** Designed for machine learning and computer vision projects focused on recycling and waste management.
+An automated image-based classification system using Convolutional Neural Networks (CNNs).
+The model will learn visual features of garbage items (plastic, paper, glass, metal, etc.) and classify them accurately to support smart waste management.
 
-### 🧱 Design Activities
-- Identified dataset and analyzed data distribution.  
-- Designed CNN structure with multiple convolution and pooling layers.  
-- Selected `TensorFlow/Keras` as the framework and `Google Colab` for GPU training.  
-- Planned preprocessing techniques (resizing, normalization, and train-test split).  
+🗂️ Dataset Information
 
-**Outcome:**  
-Week 1 successfully completed the system design phase, finalized architecture, dataset source, and planned the model training process.
+Dataset Name: Garbage Classification Dataset
 
+Source: Kaggle (Garbage Classification V2)
 
-## 💻 Week 2 – Implementation Phase Summary
+Description: Contains images of waste items belonging to multiple categories such as plastic, paper, metal, cardboard, and glass.
 
-### ⚙️ Implementation Overview
-During Week 2, the designed CNN model was implemented and trained using the **Garbage Classification Dataset** on Google Colab (with GPU acceleration).
+Purpose: Suitable for building AI models for recycling and waste segregation.
 
-### 🧩 Implementation Steps
-1. Imported the Kaggle dataset using the Kaggle API.  
-2. Preprocessed images using `ImageDataGenerator` for scaling and augmentation.  
-3. Built and compiled a CNN model using TensorFlow/Keras with:
-   - Conv2D and MaxPooling2D layers  
-   - Flatten and Dense layers  
-   - Dropout for overfitting control  
-4. Trained the model for multiple epochs and monitored accuracy/loss graphs.  
-5. Tested sample images and verified successful predictions.
+🧱 Design Activities
 
-### 📊 Results
-- **Training Accuracy:** 80.7%  
-- **Validation Accuracy:** 69.9%  
-- Model saved as: `waste_classifier_model.h5`  
-- Verified prediction with test images using `plt.imshow()`  
+Selected and analyzed the Kaggle dataset.
 
-### 🧾 Files Added to GitHub
-- `Garbage_Classification_Week2_Implementation.ipynb` – Implementation notebook  
-- `model_link.txt` – Google Drive link for the trained model (since file >25MB)  
-- `sample_prediction.png` and `accuracy_loss_graph.png` (optional visuals)
+Designed the CNN architecture (Conv2D, MaxPooling, Dense, Dropout).
 
-**Outcome:**  
-Week 2 completed the CNN model implementation phase, successfully achieving high accuracy and demonstrating automatic waste classification through deep learning.
+Planned preprocessing steps (resize, normalize, augment).
+
+Selected TensorFlow/Keras and Google Colab as core tools.
+
+✅ Outcome
+
+Completed the system design, finalized dataset source, model structure, and overall training plan.
+
+💻 Week 2 – Implementation Phase Summary
+⚙️ Implementation Overview
+
+The CNN model was implemented and trained using the Kaggle Garbage Classification Dataset on Google Colab with GPU acceleration.
+
+🧩 Implementation Steps
+
+Imported dataset using Kaggle API.
+
+Preprocessed images with resizing, normalization, and augmentation.
+
+Built CNN using TensorFlow/Keras:
+
+Conv2D + MaxPooling layers
+
+Flatten + Dense layers
+
+Dropout to reduce overfitting
+
+Trained the model across multiple epochs.
+
+Monitored training/validation accuracy and loss.
+
+Tested the model with sample garbage images for prediction.
+
+Saved the trained model as waste_classifier_model.h5.
+
+📊 Results
+
+Training Accuracy: ~80.7%
+
+Validation Accuracy: ~69.9%
+
+Model achieved stable learning and successful classification on test images.
+
+📁 Files Generated
+
+Final implementation notebook (.ipynb)
+
+Python script (.py)
+
+Trained model (.h5)
+
+Accuracy/Loss graph screenshots
+
+Sample prediction images
+
+✅ Outcome
+
+Week 2 successfully completed the model implementation phase with a working CNN garbage classifier.
+
+🚀 Week 3 – Final Submission & Presentation Phase Summary
+🛠️ Finalization Overview
+
+Week 3 focused on refining the remaining components, organizing project files, and preparing a clean and professional final presentation.
+
+📌 Activities Completed
+
+Organized all files (.ipynb, .py, .h5, README).
+
+Generated final prediction and graph screenshots.
+
+Created the final PPT with problem, solution, methodology, tools, and output images.
+
+Packaged the complete source code into a ZIP file.
+
+Uploaded ZIP + PPT to the internship portal.
+
+Verified successful submission.
+
+🏁 Outcome
+
+The entire project — including model, documentation, and presentation — is fully completed and submitted.
+The AI model successfully classifies garbage images, demonstrating a real-world application of deep learning in smart waste management.
